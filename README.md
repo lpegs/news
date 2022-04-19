@@ -1,27 +1,28 @@
--News app using some new technologies I've been studying.
--
--Typescript
--
--Next.js
--
--FaunaDB, as a serverless database
--
--Stripe, as payment method (test)
+News app using some new technologies I've been studying.
 -
 -
--The user will be able to connect/sign in through their Github acocunt.
+Typescript
 -
--After that, will be able to subscribe to the service.
+Next.js
+-
+FaunaDB, as a serverless database
+-
+Stripe, as payment method (test)
 -
 -
--Main (signed out):
+The user will be able to connect/sign in through their Github acocunt.
 -
--![alt text](https://github.com/lpegs/news/blob/main/public/images/main_signed_out.png?raw=true)
+After that, will be able to subscribe to the service.
 -
--Main (signed in):
 -
--![alt text](https://github.com/lpegs/news/blob/main/public/images/main_signed_in.png?raw=true)
+Main (signed out):
 -
--Stripe checkout:
+![alt text](https://github.com/lpegs/news/blob/main/public/images/main_signed_out.png?raw=true)
 -
--![alt text](https://github.com/lpegs/news/blob/main/public/images/stripe_checkout.png?raw=true)
+Main (signed in):
+-
+![alt text](https://github.com/lpegs/news/blob/main/public/images/main_signed_in.png?raw=true)
+-
+Stripe checkout:
+-
+![alt text](https://github.com/lpegs/news/blob/main/public/images/stripe_checkout.png?raw=true)
