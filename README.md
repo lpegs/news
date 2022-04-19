@@ -1,9 +1,9 @@
 News app using some new technologies I've been studying.
 -
 -
-Typescript
+Typescript/Javascript
 -
-Next.js
+Next.js/React (and its libraries)
 -
 FaunaDB, as a serverless database
 -
