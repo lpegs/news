@@ -10,8 +10,8 @@
 4. Stripe, as payment method (test)
 
 
-# The user will be able to connect/sign in through their Github acocunt.
-# After that, will be able to subscribe to the service.
+ The user will be able to connect/sign in through their Github acocunt.
+ After that, will be able to subscribe to the service.
 
 
 
