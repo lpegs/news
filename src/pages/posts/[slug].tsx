@@ -79,7 +79,8 @@ export const getServerSideProps: GetServerSideProps = async ({ req, params }) =>
     }
 
     return {
-        props: { post }
+        props: { post },
+        redirect: 60 * 30,
     }
 
 }

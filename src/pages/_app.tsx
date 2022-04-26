@@ -5,6 +5,7 @@ import Link from "next/link";
 import { Header } from "../components/Header";
 import "../styles/global.scss";
 import { linkResolver, repositoryName } from '../../prismicio'
+import { SessionProvider } from "next-auth/react";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -18,10 +19,12 @@ function MyApp({ Component, pageProps }: AppProps) {
         </Link>
       )}
     >
-        <Header />
-        <Component {...pageProps} />
-        <PrismicPreview repositoryName={repositoryName}>
-      </PrismicPreview>
+        <SessionProvider>
+          <Header />
+          <Component {...pageProps} />
+          <PrismicPreview repositoryName={repositoryName}>
+          </PrismicPreview>
+        </SessionProvider>
     </PrismicProvider>
   )
 

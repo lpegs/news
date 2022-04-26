@@ -1,4 +1,3 @@
-import { GetStaticProps } from "next"
 import Head from "next/head"
 import styles from "./styles.module.scss"
 import { getPrismicClient } from "../../../prismicio"
@@ -16,6 +15,7 @@ interface PostsProps {
 }
 
 export default function Posts({ posts }){
+
     return (
         <>
             <Head>
