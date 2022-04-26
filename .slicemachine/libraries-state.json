@@ -1,0 +1,184 @@
+{
+  "slices": {
+    "components": {
+      "main": {
+        "library": "slices",
+        "id": "main",
+        "name": "Main",
+        "description": "Main",
+        "model": {
+          "id": "main",
+          "type": "SharedSlice",
+          "name": "Main",
+          "description": "Main",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Main",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                }
+              },
+              "items": {
+                "Content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Content",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "main",
+            "items": [
+              {
+                "Content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nostrud laboris officia sint.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sint anim ea consequat irure veniam sunt eu ipsum aliquip minim do ut sunt.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Veniam et ipsum amet officia nisi nulla elit irure aliquip sunt. Minim deserunt nostrud sunt. Fugiat enim ea ea sint do eiusmod culpa ex aute cupidatat Lorem.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Pariatur adipisicing tempor ut consectetur cupidatat proident ex cillum minim amet reprehenderit.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Enable transparent interfaces",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\User\\Documents\\Projects\\ignite\\news\\.slicemachine\\assets\\slices\\Main\\default\\preview.png",
+            "width": 800,
+            "height": 45
+          }
+        }
+      },
+      "test": {
+        "library": "slices",
+        "id": "test",
+        "name": "Test",
+        "description": "Test",
+        "model": {
+          "id": "test",
+          "type": "SharedSlice",
+          "name": "Test",
+          "description": "Test",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Test",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "test",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Revolutionize magnetic e-commerce",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Nulla officia ad est velit pariatur deserunt ea velit elit. Aliquip non labore velit. Dolor qui non consequat.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {}
+      }
+    }
+  }
+}

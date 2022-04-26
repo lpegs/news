@@ -1,0 +1,28 @@
+{
+  "_cts": {
+    "post": {}
+  },
+  "slices": {
+    "Test": {},
+    "Main": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "Content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}
